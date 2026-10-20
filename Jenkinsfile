@@ -38,7 +38,7 @@ pipeline {
 
         // Storage account that holds Terraform state (create once, manually)
         TFSTATE_RG        = 'rg-terraform-state'
-        TFSTATE_SA        = 'tfstatemycompany001'
+        TFSTATE_SA        = 'tfstateabhijit001'   // your actual storage account name
         TFSTATE_CONTAINER = 'tfstate'
 
         TF_IN_AUTOMATION = 'true'
