@@ -9,7 +9,7 @@ pipeline {
         )
         string(
             name: 'TFVARS_GIT_URL',
-            defaultValue: 'https://github.com/<your-org>/<your-tfvars-repo>.git',
+            defaultValue: 'https://github.com/abhijitrathit/azure-terraform-jenkins.git',
             description: 'Git repo that holds the .tfvars files'
         )
         string(
