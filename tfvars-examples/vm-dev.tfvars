@@ -4,7 +4,7 @@ create_resource_group = true
 
 vm_name_prefix = "myvm-dev"
 vm_count       = 1
-vm_size        = "Standard_B2s"
+vm_size        = "Standard_B1s"
 admin_username = "azureuser"
 ssh_public_key = "ssh-rsa AAAA...replace-with-your-public-key"
 
